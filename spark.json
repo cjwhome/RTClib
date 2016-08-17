@@ -1,0 +1,8 @@
+
+{
+  "name": "RTClib",
+  "author": "Adafruit",
+  "license": "MIT",
+  "version": "1.2.0",
+  "description": "A fork of Jeelab's fantastic RTC library"
+}
