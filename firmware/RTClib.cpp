@@ -23,7 +23,7 @@
  #define _I2C_WRITE write
  #define _I2C_READ  read
 #else
- #include <WProgram.h>
+ //#include <WProgram.h>
  #define _I2C_WRITE send
  #define _I2C_READ  receive
 #endif
