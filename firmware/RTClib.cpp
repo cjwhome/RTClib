@@ -15,8 +15,7 @@
  #define Wire Wire1
 #endif
 
-
-
+/*
 #if (ARDUINO >= 100)
  #include <Arduino.h> // capital A so it is error prone on case-sensitive filesystems
  // Macro to deal with the difference in I2C write functions from old and new Arduino versions.
@@ -27,7 +26,7 @@
  #define _I2C_WRITE send
  #define _I2C_READ  receive
 #endif
-
+*/
 
 static uint8_t read_i2c_register(uint8_t addr, uint8_t reg) {
   Wire.beginTransmission(addr);
