@@ -4,7 +4,8 @@
 #ifndef _RTCLIB_H_
 #define _RTCLIB_H_
 
-#include <Arduino.h>
+//#include <Arduino.h>
+#include "application.h"
 class TimeSpan;
 
 
