@@ -15,12 +15,13 @@
  #define Wire Wire1
 #endif
 
-/*
-#if (ARDUINO >= 100)
- #include <Arduino.h> // capital A so it is error prone on case-sensitive filesystems
+
+//#if (ARDUINO >= 100)
+ //#include <Arduino.h> // capital A so it is error prone on case-sensitive filesystems
  // Macro to deal with the difference in I2C write functions from old and new Arduino versions.
  #define _I2C_WRITE write
  #define _I2C_READ  read
+/*
 #else
  //#include <WProgram.h>
  #define _I2C_WRITE send
